@@ -4,6 +4,7 @@
 var $ = require('gulp-load-plugins')();
 var gulp = require('gulp');
 var runSequence = require('run-sequence');
+var uglify = require('gulp-uglify');
 var spawn = require('child_process').spawn;
 
 gulp.task('default', ['test', 'lint']);
